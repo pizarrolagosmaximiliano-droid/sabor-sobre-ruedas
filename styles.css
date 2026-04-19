@@ -59,6 +59,16 @@ body {
 .logo {
     font-size: 2rem;
     color: var(--text-pure);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .nav-contact {
