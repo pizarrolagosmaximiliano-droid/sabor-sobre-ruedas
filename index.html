@@ -4,204 +4,210 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sabor Sobre Ruedas | Coltauco</title>
-    <meta name="description" content="El mejor Food Truck de Coltauco. Clásicos chilenos, preparación rápida y calidad garantizada.">
+    <meta name="description" content="Sabor Sobre Ruedas Coltauco. Comida rápida, completa y contundente.">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header / Navbar -->
+    <!-- Header Estilo Street / Dark Mode -->
     <nav class="navbar">
         <div class="container nav-content">
             <div class="logo">
-                <i class="fa-solid fa-truck-fast text-brand"></i> SaborSobreRuedas
+                <i class="fa-solid fa-fire-burner text-accent"></i> SABOR SOBRE RUEDAS
             </div>
             <div class="nav-contact desktop-only">
-                <a href="#menu" class="nav-link">Ver Menú</a>
-                <a href="#info" class="nav-link">Información general</a>
+                <a href="#menu" class="nav-link">Nuestra Carta</a>
+                <a href="#info" class="nav-link">Ubicación</a>
                 <a href="tel:+56964044114" class="contact-pill">
-                    <i class="fa-solid fa-phone"></i> Llamar Directo
+                    <i class="fa-solid fa-phone"></i> +56 9 6404 4114
                 </a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="hero-modern">
-        <div class="container hero-grid">
-            <div class="hero-text">
-                <div class="location-badge"><i class="fa-solid fa-location-dot"></i> Coltauco Centro, Chile</div>
-                <h1>El Auténtico Sabor<br>Coltauquino</h1>
-                <p>Disfruta de la mejor comida rápida y tradicional de la zona. Ingredientes frescos, higiene impecable y rapidez en cada pedido.</p>
-                <div class="action-buttons">
-                    <a href="#menu" class="btn-brand">Ver Menú Completo <i class="fa-solid fa-utensils"></i></a>
-                </div>
-            </div>
-            <div class="hero-images">
-                <div class="hero-img-main">
-                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&fit=crop" alt="Hamburguesa Premium">
-                </div>
-                <div class="hero-img-stack">
-                    <img src="https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=300&fit=crop" alt="Papas Fritas">
-                    <img src="https://images.unsplash.com/photo-1612392062631-94dd858cba88?w=300&fit=crop" alt="Completos">
-                </div>
+    <!-- Hero Dark con Fuego/Grill -->
+    <header class="hero-dark">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="location-badge">📍 COLTAUCO CENTRO - ABIERTO AHORA</div>
+            <h1>EL VERDADERO SABOR<br><span class="text-accent">A LA CALLE</span></h1>
+            <p>Las preparaciones más contundentes y clásicas. Churrascos gigantes, completos de verdad y el toque único de Sabor Sobre Ruedas.</p>
+            <div class="action-buttons">
+                <a href="#menu" class="btn-accent">Hacer un Pedido <i class="fa-solid fa-bolt"></i></a>
+                <a href="#info" class="btn-outline-light">Ver Ubicación</a>
             </div>
         </div>
     </header>
 
-    <!-- Barra de Información Corporativa -->
-    <section id="info" class="info-section">
-        <div class="container info-panel">
-            <div class="info-item">
-                <div class="info-icon"><i class="fa-solid fa-shop"></i></div>
-                <div class="info-text-block">
-                    <h4>Ubicación Física</h4>
-                    <p>Plaza de Coltauco, a pasos de la municipalidad. (Sector carros de comida).</p>
+    <!-- Info Rápida -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-box">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <div>
+                        <h5>Ubicados En</h5>
+                        <p>Plaza Centro Coltauco</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info-item">
-                <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
-                <div class="info-text-block">
-                    <h4>Horario Continúo</h4>
-                    <p>Abierto de <strong>Lunes a Domingo</strong><br>Desde las 18:00 hasta las 00:00 hrs.</p>
+                <div class="info-box">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h5>Horario</h5>
+                        <p>Lunes a Domingo (18:00 - 00:00)</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info-item">
-                <div class="info-icon"><i class="fa-solid fa-motorcycle"></i></div>
-                <div class="info-text-block">
-                    <h4>Zonas de Reparto</h4>
-                    <p>Delivery disponible para todo el sector centro de Coltauco y alrededores cercanos.</p>
+                <div class="info-box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div>
+                        <h5>Reparto Express</h5>
+                        <p>Delivery todo Coltauco</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info-item">
-                <div class="info-icon"><i class="fa-solid fa-wallet"></i></div>
-                <div class="info-text-block">
-                    <h4>Medios de Pago</h4>
-                    <p>Aceptamos Efectivo, Transferencia, CuentaRUT y tarjetas (Máquina RedCompra).</p>
+                <div class="info-box">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <div>
+                        <h5>Pago Fácil</h5>
+                        <p>Efectivo, Transf. y Tarjetas</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Menú Visual Altamente Optimizado -->
+    <!-- Menu Section (Coincidiendo Imágenes) -->
     <section id="menu" class="menu-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Nuestras <span>Especialidades</span></h2>
-                <p>Elige tu producto, haz click en pedir y coordina por WhatsApp al instante, sin filas.</p>
-            </div>
+            <h2 class="section-title">NUESTRA <span class="text-accent">CARTA</span></h2>
             
             <div class="menu-grid">
                 
+                <!-- Item 1: Churrasco -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1525124568652-3298a83aadd4?w=500&fit=crop" alt="Churrasco Italiano" loading="lazy">
+                        <!-- Imagen real de un buen sandwich con carne y palta -->
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&fit=crop" alt="Churrasco Italiano">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Churrasco Italiano</h4>
-                        <p>Láminas de vacuno selecto, palta hass fresca, tomate picado y mayonesa casera.</p>
+                        <h4>CHURRASCO ITALIANO</h4>
+                        <p>Contundente. Carne de vacuno súper blanda, palta natural, tomate fresco y mayo de la casa en el mejor pan frica.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$4.500</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114?text=Hola,%20quiero%20pedir%20un%20Churrasco%20Italiano')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114?text=Quiero%20un%20Churrasco%20Italiano')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 2: Completo -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1612392062631-94dd858cba88?w=500&fit=crop" alt="Completo" loading="lazy">
+                        <!-- Imagen real de un Hot dog / Completo lleno de ingredientes -->
+                        <img src="https://images.unsplash.com/photo-1612392062631-94dd858cba88?w=600&fit=crop" alt="Completo Dinámico">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Completo Dinámico</h4>
-                        <p>Salchicha premium, salsa americana, chucrut, tomate, palta y deliciosa mayo.</p>
+                        <h4>COMPLETO DINÁMICO</h4>
+                        <p>La combinación perfecta: Salchicha sureña, chucrut, salsa americana, tomate, palta y deliciosa mayonesa.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$2.500</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114?text=Hola,%20quiero%20un%20Completo%20Dinámico')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114?text=Quiero%20un%20Completo')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 3: Empanada -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1615486171448-4fbef015eeb1?w=500&fit=crop" alt="Empanada de Pino" loading="lazy">
+                        <!-- Imagen de empanadas al horno -->
+                        <img src="https://images.unsplash.com/photo-1615486171448-4fbef015eeb1?w=600&fit=crop" alt="Empanada de Horno">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Empanada de Horno</h4>
-                        <p>Pino tradicional caldudo, aceituna, huevo. Masa casera horneada al día.</p>
+                        <h4>EMPANADA DE HORNO</h4>
+                        <p>Clásica empanada chilena de pino caldudo, aceituna, huevito duro. Masa delgada horneada todos los días.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$2.000</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 4: Sopaipillas -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1599487405232-9cb51516e9c9?w=500&fit=crop" alt="Sopaipillas y Frituras" loading="lazy">
+                        <!-- Imagen de pan frito/sopaipillas (Aproximación en alta calidad) -->
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&fit=crop" alt="Sopaipillas Fritas">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Sopaipillas Caseras</h4>
-                        <p>Clásicas pasadas o secas, zapallo camote, crujientes. Acompáñalas con pebre de la casa.</p>
+                        <h4>SOPAIPILLAS CON PEBRE</h4>
+                        <p>Hechas con zapallo camote, crujientes, súper doradas. Perfectas para acompañar con un buen pebre casero.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$400 c/u</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 5: Papas Fritas -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1576107232684-1279f3908594?w=500&fit=crop" alt="Papas Fritas Familiares" loading="lazy">
+                        <!-- Imagen de papas fritas rústicas grandes -->
+                        <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&fit=crop" alt="Papas Fritas">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Papas Fritas XL</h4>
-                        <p>Porción familiar de rústicas papas fritas, crujientes por fuera y suaves por dentro.</p>
+                        <h4>PAPAS FRITAS FAMILIARES</h4>
+                        <p>Crujientes porciones gigantes. Usamos aceite siempre fresco para lograr ese dorado y sabor increíble en la papa.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$3.500</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Item 6: Mote con huesillo -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&fit=crop" alt="Mote con huesillo" loading="lazy">
+                        <!-- Imagen de vaso con bebida de durazno/fruta -->
+                        <img src="https://images.unsplash.com/photo-1514361892635-6b07e31e75f9?w=600&fit=crop" alt="Mote con huesillo">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Mote con Huesillos</h4>
-                        <p>Nuestra receta estrella para los días de calor. Jugo helado, mote fresco y durazno cocinado.</p>
+                        <h4>MOTE CON HUESILLOS</h4>
+                        <p>El rey del dulce. Jarabe acaramelado muy helado, mote fresco en el fondo y unos duraznos blandísimos.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$2.500</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 7: Hamburguesa -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&fit=crop" alt="Hamburguesa" loading="lazy">
+                        <!-- Imagen de hamburguesa súper premium/callejera -->
+                        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&fit=crop" alt="Hamburguesa Premium">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Hamburguesa Coltauco</h4>
-                        <p>Carne artesanal, queso derretido, lechuga crocante, tomate y salsa especial.</p>
+                        <h4>HAMBURGUESA COLTAUCO</h4>
+                        <p>Hamburguesa premium de gran tamaño cubierta en queso derretido, tocino crujiente, tomate y lechuga.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$4.200</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
 
+                <!-- Item 8: Bebidas -->
                 <div class="menu-card">
                     <div class="menu-card-img">
-                        <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500&fit=crop" alt="Bebidas" loading="lazy">
+                        <!-- Imagen de botellas de refrescos en hielo / frescas -->
+                        <img src="https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&fit=crop" alt="Bebidas Frescas">
                     </div>
                     <div class="menu-card-content">
-                        <h4>Bebidas y Jugos Naturales</h4>
-                        <p>Gaseosas súper frías (CCU/CocaCola) jugo natural o aguas minerales.</p>
+                        <h4>BEBIDAS Y REFRESCOS</h4>
+                        <p>Línea Coca-Cola o CCU heladísimas. Latas y botellas personales de jugo natural o aguas minerales.</p>
                         <div class="menu-card-bottom">
                             <span class="price">$1.500</span>
-                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i> Pedir</button>
+                            <button class="add-btn" onclick="window.open('https://wa.me/56964044114')"><i class="fa-brands fa-whatsapp"></i></button>
                         </div>
                     </div>
                 </div>
@@ -210,68 +216,25 @@
         </div>
     </section>
 
-    <!-- Info Adicional de Respaldo Profesional con Imágenes -->
-    <section class="about-section">
-        <div class="container text-center">
-            <h3>¿Por qué somos los mejores del sector?</h3>
-            <div class="features-grid">
-                <div class="feature-box">
-                    <img src="https://images.unsplash.com/photo-1596422846543-74c6fc1c0a0c?w=300&fit=crop" alt="Ingredientes Frescos" class="feature-img">
-                    <h5>Ingredientes Selectos</h5>
-                    <p>Día a día escogemos la verdura más fresca y pan de panaderías locales para asegurar el estándar.</p>
-                </div>
-                <div class="feature-box">
-                    <img src="https://images.unsplash.com/photo-1584824486516-0555a07fc511?w=300&fit=crop" alt="Higiene Profesional" class="feature-img">
-                    <h5>Higiene Rigurosa</h5>
-                    <p>Contamos con las certificaciones sanitarias y protocolos de limpieza altamente estrictos en nuestra cocina.</p>
-                </div>
-                <div class="feature-box">
-                    <img src="https://images.unsplash.com/photo-1590432363544-23910c266a87?w=300&fit=crop" alt="Rapidez y Delivery" class="feature-img">
-                    <h5>Delivery & Rapidez</h5>
-                    <p>Elaboración optimizada para que retires tu pedido caliente o llegue directo a tu casa en Coltauco.</p>
-                </div>
+    <!-- Footer / CTA -->
+    <footer id="info" class="footer-dark">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>SABOR SOBRE RUEDAS</h2>
+                <p>El Food Truck líder de Coltauco.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- CTA Final -->
-    <section class="bottom-cta">
-        <div class="container text-center">
-            <h2>Listo para hacer tu Pedido</h2>
-            <p>Escríbenos ahora. Te contestaremos de inmediato.</p>
-            <a href="https://wa.me/56964044114" target="_blank" class="whatsapp-massive">
-                <i class="fa-brands fa-whatsapp"></i> Pedir al +56 9 6404 4114
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer Moderno y Sólido -->
-    <footer>
-        <div class="container footer-grid">
-            <div class="footer-info">
-                <h4><i class="fa-solid fa-truck-fast"></i> SaborSobreRuedas</h4>
-                <p>El auténtico carrito coltauquino con calidad premium. Gastronomía rápida confiable y deliciosa.</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </div>
+            <div class="footer-cta">
+                <p>Arma tu pedido y nosotros te lo preparamos de inmediato.</p>
+                <a href="https://wa.me/56964044114" class="btn-whatsapp-footer">
+                    <i class="fa-brands fa-whatsapp"></i> PEDIR AL +56 9 6404 4114
+                </a>
             </div>
-            <div class="footer-contact">
-                <h4>Contacto Directo</h4>
-                <ul>
-                    <li><i class="fa-solid fa-location-dot"></i> Plaza Centro, Coltauco</li>
-                    <li><i class="fa-solid fa-phone"></i> +56 9 6404 4114</li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom text-center">
-            <p>&copy; 2026 Sabor Sobre Ruedas. Desarrollado para operaciones en Coltauco.</p>
         </div>
     </footer>
 
-    <!-- Boton Fijo Flotante Whatsapp -->
-    <a href="https://wa.me/56964044114?text=Hola,%20quisiera%20hacer%20un%20pedido%20%F0%9F%8D%94" id="whatsapp-float" class="floating-wa">
-        <i class="fa-brands fa-whatsapp"></i><span class="desktop-only text-bold">Hacer Pedido</span>
+    <!-- Botón Whatsapp Flotante -->
+    <a href="https://wa.me/56964044114?text=Hola,%20quisiera%20hacer%20un%20pedido" class="fab-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
 
 </body>
